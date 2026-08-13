@@ -1,0 +1,9 @@
+use DBMS;
+Show databases;
+
+create table employees( id INT, name VARCHAR(100), city VARCHAR(50));
+ALTER TABLE employees ADD department VARCHAR(50);
+Select*from employees;
+
+ALTER TABLE employees RENAME COLUMN name TO full_name;
+select*from employees;
