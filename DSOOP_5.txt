@@ -1,0 +1,60 @@
+5. Aim:- Write a program for insertion sort.
+
+#include<stdio.h>
+#include<conio.h>
+  void main ()
+  {
+  int n,i,a[10],t,j;
+  clrscr ();
+  printf("Enterr how many elements:\n");
+  scanf("%d", &n);
+  printf("Enter an elements:\n");
+  for (i=0; i<n; i++)
+  scanf("%d", & a[i]);
+  for (i=0; i<n; i++)
+    {
+     for(j=i; j>0; j--)
+    {
+     if(a[j]<a[j-1])
+    {
+     t=a[j];
+     a[j]=a[j-1];
+     a[j-1]=t;
+    }
+    }
+    }
+  printf("Th sorted elments are:\n");
+  for (i=0; i<n; i++)
+  printf("%5d", a[i]);
+  getch ();
+  }
+
+  Outut:
+  Enterr how many elements:
+4                                                                               
+Enter an elements:                                                              
+11                                                                              
+56                                                                              
+8                                                                               
+34                                                                              
+Th sorted elments are:                                                          
+    8   11   34   56                                                            
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+
+
+
