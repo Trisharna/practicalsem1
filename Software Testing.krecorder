@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Software Testing</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Google Account Login</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.google.com<datalist><option>https://www.google.com</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://www.google.com/<datalist><option>https://www.google.com/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='gbwa']/div/a<datalist><option>xpath=//div[@id='gbwa']/div/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Images'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Gmail'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)=concat('What', "'", 's on your mind?')])[1]/preceding::a[9]</option><option>xpath=//a[contains(@href, 'https://www.google.co.in/intl/en/about/products')]</option><option>xpath=//header/div[2]/div/a</option><option>css=a.gb_C</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://www.youtube.com/<datalist><option>https://www.youtube.com/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>name=search_query<datalist><option>name=search_query</option><option>xpath=//input[@name='search_query']</option><option>xpath=//div[@id='center']/yt-searchbox/div/div/div/form/input</option><option>xpath=//form/input</option><option>css=input[name="search_query"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=search_query<datalist><option>name=search_query</option><option>xpath=//input[@name='search_query']</option><option>xpath=//div[@id='center']/yt-searchbox/div/div/div/form/input</option><option>xpath=//form/input</option><option>css=input[name="search_query"]</option></datalist></td><td>selenium tutorial for beginners</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='inline-preview-player']/div/video<datalist><option>xpath=//div[@id='inline-preview-player']/div/video</option><option>xpath=//a/div/div/ytd-player/div/div/div/video</option><option>css=#inline-preview-player > div.html5-video-container > video.video-stream.html5-main-video</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='movie_player']/div/video<datalist><option>xpath=//div[@id='movie_player']/div/video</option><option>xpath=//video</option><option>css=video.video-stream.html5-main-video</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='center']/yt-searchbox/div/div/div/div/button/yt-touch-feedback-shape/div[2]<datalist><option>xpath=//div[@id='center']/yt-searchbox/div/div/div/div/button/yt-touch-feedback-shape/div[2]</option><option>xpath=//div/button/yt-touch-feedback-shape/div[2]</option><option>css=button.ytSearchboxComponentClearButton > yt-touch-feedback-shape.ytSpecTouchFeedbackShapeHost.ytSpecTouchFeedbackShapeTouchResponse > div.ytSpecTouchFeedbackShapeFill</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>name=search_query<datalist><option>name=search_query</option><option>xpath=//input[@name='search_query']</option><option>xpath=//div[@id='center']/yt-searchbox/div/div/div/form/input</option><option>xpath=//form/input</option><option>css=input[name="search_query"]</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
